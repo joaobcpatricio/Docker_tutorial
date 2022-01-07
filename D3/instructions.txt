@@ -1,0 +1,6 @@
+To create the container: >> docker build . -t clang_cpp:1.0.0
+
+To run the container: >> docker run --rm -it clang_cpp:1.0.0
+
+To copy a file from the container to here:
+docker cp priceless_antonelli:/usr/src/cpp_test/Test C:\Workspace\Temp\docker\Tutorial\Docker\D3
